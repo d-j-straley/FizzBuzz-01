@@ -1,4 +1,8 @@
-﻿using System.Data;
+﻿/*
+© 2024 David James Straley
+*/
+
+using System.Data;
 using System.Data.SqlClient;
 
 string sOutput = string.Empty;
@@ -29,6 +33,7 @@ using (_connection = new SqlConnection(@"Server=(localdb)\MSSQLLocalDB;Database=
         Console.WriteLine(sOutput);
     }
 }
+Console.WriteLine("\nPress any key to exit.");
 Console.ReadKey();
 
 
